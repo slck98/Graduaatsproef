@@ -1,0 +1,26 @@
+<article class="detail-driver">
+<section class="detail-driver">
+  <h3 class="driver-title">{{driver.firstName}} {{driver.lastName}}</h3>
+  <div class="driverInfo">
+    <ul class="table-detail">
+      <li>Geboortedatum:</li>
+      <li>{{driver.birthDate.split('T', 1)}}</li>
+      <li>Rijksregisternummer:</li>
+      <li>{{driver.natRegNum}}</li>
+      <li>Adres:</li>
+      <li>{{driver.address}}</li>
+      <li>Rijbewijs:</li>
+      <li>{{driver.licenses}}</li>
+      <li>Voertuig:</li>
+      <li>{{driver.vehicleVin}}</li>
+      <li>Tankkaart:</li>
+      <li>{{driver.gasCardNum}}</li>
+    </ul>
+  </div>
+</section> 
+<nav class="detail-nav">
+  <a [routerLink]="['/drivers']"><p>TERUG</p></a>
+  <a [routerLink]="['/drivers',driver.driverID,'edit']"><p>BEWERKEN</p></a>
+  <a class="delete"><p>VERWIJDEREN</p></a>
+</nav>
+</article>

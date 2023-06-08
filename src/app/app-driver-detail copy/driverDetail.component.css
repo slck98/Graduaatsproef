@@ -1,0 +1,74 @@
+.detail-driver {
+    display: grid;
+    grid-template-columns: 3fr;
+    width: 90%;
+    margin-left: 5vw;
+    height: auto;
+    margin-top: 2vw;
+    background-color: #7A2048;
+    border-radius: 25px;
+}
+.driver-title{
+    margin: 0;
+    margin-bottom: 2vw;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+    text-transform: uppercase;
+}
+.driverInfo{
+    background-color: white;
+    width: 100%;
+    color: #7A2048;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 25px;
+    display: grid;
+    margin-bottom: 2vw;
+}
+.driverInfo li{
+    text-decoration: none;
+    list-style: none;
+    padding: 0.5vw;
+}
+.table-detail {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    text-align: left;
+    font-size: 1.2vw;
+}
+.detail-nav{
+    margin-left: 5vw;
+    margin-right: 4vw;
+    margin-bottom: 3vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 1/5;
+    grid-gap: 2vw;
+    align-items: center;
+}
+  
+.detail-nav a{
+    text-decoration: none;
+    border-radius: 25px;
+    border-color: white;
+    background-color: white;
+    color: #7A2048;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1vw;
+}
+  
+.detail-nav a:hover{
+    color: white;
+    background-color: #2494d4;
+    border-color: #2494d4;
+}
+
+.detail-nav .delete:hover{
+    background-color: red;
+}

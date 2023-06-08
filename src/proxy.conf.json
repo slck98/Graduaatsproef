@@ -1,0 +1,7 @@
+{
+    "/driver-list": {
+      "target": "https://localhost:7144/api",
+      "secure": false,
+      "logLevel": "debug"
+    }
+  }

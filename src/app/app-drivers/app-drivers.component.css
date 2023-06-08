@@ -1,0 +1,66 @@
+.app-drivers {
+    display: grid;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    margin-top: 2vw;
+    background-color: #7A2048;
+    border-radius: 25px;
+}
+
+.drivers-headline{
+    margin: 0;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+}
+.driverList{
+    text-decoration: none;
+    list-style: none;
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 1vw;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 2vw;
+}
+.driverList ul{
+    width: 100%;
+    padding: 0;
+}
+
+.driverList li{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.driverList li a{
+    padding: 1vw;
+    text-decoration: none;
+    color: #7A2048;
+}
+.driverList p:first-of-type{
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: underline;
+    padding: 0;
+}
+.driverList p{
+    margin: 0;
+}
+.driverList li a:hover{
+    text-decoration: none;
+    color: white !important;
+    background-color: #7A2048;
+    border-radius: 25px;
+}

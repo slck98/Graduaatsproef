@@ -1,0 +1,29 @@
+<article class="detail-driver">
+<section class="detail-driver">
+  <div class="driverInfo">
+    <ul class="table-detail">
+      <li>Voornaam:</li>
+      <input type="text" value={{driver.firstName}} />
+      <li>Familienaam:</li>
+      <input type="text" value={{driver.lastName}} />
+      <li>Geboortedatum:</li>
+      <input type="text" value={{driver.birthDate}} />
+      <li>Rijksregisternummer:</li>
+      <input type="text" value={{driver.natRegNum}} />
+      <li>Adres:</li>
+      <input type="text" value={{driver.address}}>
+      <li>Rijbewijs:</li>
+      <input type="text" value={{driver.licenses}}>
+      <li>Voertuig:</li>
+      <input type="text" value={{driver.vehicleVin}}>
+      <li>Tankkaart:</li>
+      <input type="text" value={{driver.gasCardNum}}>
+    </ul>
+  </div>
+</section> 
+<nav class="detail-nav">
+  <a [routerLink]="['/drivers',driver.driverID]"><p>OPSLAAN</p></a>
+  <a [routerLink]="['/drivers',driver.driverID]"><p>ANNULEREN</p></a>
+  
+</nav>
+</article>

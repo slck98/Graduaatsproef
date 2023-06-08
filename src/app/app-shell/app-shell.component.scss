@@ -1,0 +1,24 @@
+.app-shell {
+    padding: 2vw;
+    margin-top: 1vw;
+  }
+  
+  .app-shell ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .app-shell a,li {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.5vw;
+    color: #7A2048;
+  }
+  
+  .app-shell a:hover,
+  .app-shell a.active {
+    color: #2494d4;
+  }

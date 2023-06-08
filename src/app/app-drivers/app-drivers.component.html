@@ -1,0 +1,13 @@
+<div class="app-drivers">
+  <h3 class="drivers-headline">BESTUURDERS</h3>
+  <div class="driverList">
+  <ul *ngFor="let driver of driverList">
+    <li>
+      <a [routerLink]="['/drivers',driver.driverID]">
+        <p>{{driver.firstName}} {{driver.lastName}}</p>
+        <p>{{driver.natRegNum}}</p>
+      </a>
+    </li>
+  </ul>
+</div>
+</div> 
